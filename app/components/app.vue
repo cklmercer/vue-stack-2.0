@@ -16,7 +16,7 @@
         mounted() {
             setTimeout(() => {
                 this.message = _.upperCase(this.message);
-                console.log($('welcome'))
+                console.log($('.welcome'))
             }, 2000);
         }
     }
