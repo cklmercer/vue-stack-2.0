@@ -1,3 +1,6 @@
+window.$ = window.jQuery = require('jquery')
+window._ = require('lodash')
+
 import Vue from 'vue'
 import Http from 'vue-resource'
 import Router from 'vue-router'
