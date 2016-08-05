@@ -5766,6 +5766,6 @@ button.close {
     display: none !important; } }
 
 body {
-  font-size: 3em; }
+  min-height: 100vh; }
 
 /*# sourceMappingURL=app.css.map */

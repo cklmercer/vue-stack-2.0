@@ -1,10 +1,9 @@
 <template>
-    <div id="app">
-        <h1 class="welcome">{{ message }}</h1>
-        <ul>
-            <li><router-link :to="{ name: 'index' }">Home</router-link></li>
-            <li><router-link :to="{ name: 'test' }">Test</router-link></li>
-        </ul>
+    <div id="app" :class="routeClass">
+        <navbar></navbar>
+        <div class="container">
+            <h1>{{ message }}</h1>
+        </div>
         <router-view></router-view>
     </div>
 </template>
@@ -14,10 +13,24 @@
         store: ['message'],
 
         mounted() {
-            setTimeout(() => {
-                this.message = _.upperCase(this.message);
-                console.log($('.welcome'))
-            }, 2000);
+            this.$events.$on('testEvent', () => {
+               this.message = 'I heard an event.'
+            });
+        },
+
+        computed: {
+            /**
+             * Get a class name based on the route path.
+             *
+             * @return {String}
+             */
+            routeClass() {
+                return this.$route.path.split('/').filter(part => Boolean(part)).join('-');
+            }
+        },
+
+        components: {
+            'navbar': require('./nav/navbar.vue')
         }
     }
 </script>

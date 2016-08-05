@@ -12,6 +12,8 @@
     "laravel-elixir-vue": "github:cklmercer/laravel-elixir-vue#fb7431d",
     "laravel-elixir-webpack-official": "^1.0.2",
     "lodash": "^4.14.1",
+    "node-sass": "^3.8.0",
+    "sass-loader": "^4.0.0",
     "vue": "^2.0.0-beta.6",
     "vue-resource": "^0.9.3",
     "vue-router": "^2.0.0-rc.1",
