@@ -13,9 +13,7 @@ Vue 2.0 project boilerplate.
 ### Setup
 * Clone the git repo `git clone https://github.com/cklmerver/vue-stack-2.0`
 * Change into the directory `cd vue-stack-2.0`
-* Run `npm install`
-* Run `gulp`
-* Serve `/public` with the web server of your choice. _(I use [larvel/homestead](https://github.com/laravel/homestead))_
+* Open `./public/index.html` with your browser.
 
 ### Features
 
@@ -38,7 +36,13 @@ To listen for an event, use `vm.$events.$on('event-name', callback())`.
 ##### SPA Routing
 `vue-stack-2.0` leverages the latest [vue-router](https://github.com/vuejs/vue-router). To get started, checkout
 `./app/routes.js`.
- 
+
+### Start developing
+* Run `npm install`
+* Change some code
+* Run `gulp`
+
+_I'm using [laravel/homestead](https://github.com/laravel/homestead) and [browser-sync](https://github.com/JeffreyWay/laravel-elixir-browsersync-official)
 
 ### License
 [MIT](http://opensource.org/licenses/MIT)
