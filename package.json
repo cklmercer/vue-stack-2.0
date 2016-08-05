@@ -1,0 +1,18 @@
+{
+  "name": "vue-stack-2.0",
+  "version": "1.0.0",
+  "description": "",
+  "author": "Cody Mercer <me@codymercer.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "bootstrap-sass": "^3.3.7",
+    "jquery": "^3.1.0",
+    "laravel-elixir": "^6.0.0-9",
+    "laravel-elixir-vue": "github:cklmercer/laravel-elixir-vue",
+    "laravel-elixir-webpack-official": "^1.0.2",
+    "vue": "^2.0.0-beta.6",
+    "vue-resource": "^0.9.3",
+    "vue-router": "^2.0.0-rc.1",
+    "vue-stash": "^2.0.0-beta"
+  }
+}
