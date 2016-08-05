@@ -4,8 +4,9 @@ Vue 2.0 project boilerplate.
 ### Includes
 * Vue 2.0
 * Vue Router 2.0
-* Vue Resource
 * Vue Stash 2.0
+* Vue Resource
+* lodash
 * jQuery
 * Boostrap Sass
 
