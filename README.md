@@ -15,7 +15,7 @@ Vue 2.0 project boilerplate.
 * Change into the directory `cd vue-stack-2.0`
 * Run `npm install`
 * Run `gulp`
-* Serve `/public` with the web server of your choice. 
+* Serve `/public` with the web server of your choice. _(I use [larvel/homestead](https://github.com/laravel/homestead))_
 
 ### Features
 
