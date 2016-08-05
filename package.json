@@ -6,9 +6,10 @@
   "license": "MIT",
   "devDependencies": {
     "bootstrap-sass": "^3.3.7",
+    "gulp": "^3.9.1",
     "jquery": "^3.1.0",
     "laravel-elixir": "^6.0.0-9",
-    "laravel-elixir-vue": "github:cklmercer/laravel-elixir-vue",
+    "laravel-elixir-vue": "github:cklmercer/laravel-elixir-vue#fb7431d",
     "laravel-elixir-webpack-official": "^1.0.2",
     "lodash": "^4.14.1",
     "vue": "^2.0.0-beta.6",
