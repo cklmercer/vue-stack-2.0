@@ -42,7 +42,7 @@ To listen for an event, use `vm.$events.$on('event-name', callback())`.
 * Change some code
 * Run `gulp`
 
-_I'm using [laravel/homestead](https://github.com/laravel/homestead) and [browser-sync](https://github.com/JeffreyWay/laravel-elixir-browsersync-official)
+_I'm using [laravel/homestead](https://github.com/laravel/homestead) and [browser-sync](https://github.com/JeffreyWay/laravel-elixir-browsersync-official)_
 
 ### License
 [MIT](http://opensource.org/licenses/MIT)
