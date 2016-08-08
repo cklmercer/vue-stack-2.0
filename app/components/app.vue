@@ -15,7 +15,7 @@
         store: ['message'],
 
         mounted() {
-            this.$events.$on('testEvent', () => {
+            this.$events.listen('testEvent', () => {
                this.message = 'I heard an event.'
             });
         },
