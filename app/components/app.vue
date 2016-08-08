@@ -10,6 +10,8 @@
 
 <script type="text/babel">
     export default {
+        name: 'app',
+
         store: ['message'],
 
         mounted() {
