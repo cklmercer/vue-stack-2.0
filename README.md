@@ -5,6 +5,7 @@ Vue 2.0 project boilerplate.
 * Vue 2.0
 * Vue Router 2.0
 * Vue Stash 2.0
+* Vue Events
 * Vue Resource
 * lodash
 * jQuery
@@ -18,7 +19,7 @@ Vue 2.0 project boilerplate.
 
 ### Features
 
-##### Global Store
+#### Global Store
 Visit `./app/store.js` to add properties to your global store. Pre-initialize these properties and they'll be reactive 
 just like other properties in your component's `data` option.
  
@@ -26,15 +27,23 @@ You can access these properties from from within any component using the `store`
  
 See [vue-stash](https://github.com/cklmercer/vue-stash) for more details regarding the global store.
  
-##### Global Event Bus
-Since the `vm.$dispatch` and `vm.$broadcast` events have been deprecated, `vue-stack-2.0` leverages a global event bus. 
-This is a blank vue model bound to `vm.$events`. 
+#### Global Event Bus
+Since the `vm.$dispatch` and `vm.$broadcast` events have been deprecated, `vue-stack-2.0` leverages `vue-events` to 
+simplify event handling.
 
-To fire an event use `vm.$events.$emit('event-name', data)`.
+**Fire an event** 
+* `vm.$events.fire('event-name', data)`
+* `vm.$events.emit('event-name', data)`
+* `vm.$events.$emit('event-name', data)`
 
-To listen for an event, use `vm.$events.$on('event-name', callback())`.
+**Listen for an event**
+* `vm.$events.listen('event-name', cb())`
+* `vm.$events.on('event-name', cb())`
+* `vm.$events.$on('event-name', cb())`
 
-##### SPA Routing
+See [vue-events](https://github.com/cklmercer/vue-events) for more details.
+
+#### SPA Routing
 `vue-stack-2.0` leverages the latest [vue-router](https://github.com/vuejs/vue-router). To get started, checkout
 `./app/routes.js`.
 
