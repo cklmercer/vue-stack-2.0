@@ -1,12 +1,7 @@
 require('./libraries')
 
-import { Vue, Router } from './vue';
-import routes from './../routes'
-const router = new Router({
-    // mode: 'history', // uncomment to using html5 history features.
-    // hashbang: false, // uncomment to remove the hashbang from the url
-    routes
-})
+import { Vue } from './vue';
+import router from './router';
 
 const events = new Vue({})
 Object.defineProperty(Vue.prototype, '$events', {
