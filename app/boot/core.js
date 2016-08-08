@@ -1,14 +1,6 @@
 require('./libraries')
 
-import Vue from 'vue'
-import Http from 'vue-resource'
-import Router from 'vue-router'
-import Store from 'vue-stash'
-
-Vue.use(Http)
-Vue.use(Router)
-Vue.use(Store)
-
+import { Vue, Router } from './vue';
 import routes from './../routes'
 const router = new Router({
     // mode: 'history', // uncomment to using html5 history features.
