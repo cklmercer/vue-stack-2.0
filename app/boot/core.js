@@ -1,6 +1,4 @@
-window.$ = window.jQuery = require('jquery')
-window._ = require('lodash')
-require('bootstrap-sass/assets/javascripts/bootstrap.js')
+require('./libraries')
 
 import Vue from 'vue'
 import Http from 'vue-resource'
