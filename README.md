@@ -9,6 +9,7 @@ Vue 2.0 project boilerplate.
 * lodash
 * jQuery
 * Bootstrap Sass
+* Font Awesome
 
 ### Setup
 * Clone the git repo `git clone https://github.com/cklmerver/vue-stack-2.0`
