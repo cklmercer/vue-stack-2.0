@@ -11,10 +11,13 @@
         store: ['message'],
 
         mounted() {
-            console.log('The test component will fire an event in 3 seconds.')
             setTimeout(() => {
-                this.$events.fire('testEvent');
-            }, 3000)
+                this.$events.fire('testEvent', 'message received');
+            }, 1500)
+
+            setTimeout(() => {
+                this.$events.fire('testTwo', 'other works');
+            }, 5000)
         }
     }
 </script>

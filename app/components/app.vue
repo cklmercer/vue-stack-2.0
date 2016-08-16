@@ -14,10 +14,14 @@
 
         store: ['message'],
 
-        mounted() {
-            this.$events.listen('testEvent', () => {
-               this.message = 'I heard an event.'
-            });
+        events: {
+            testEvent(message) {
+                this.message = message
+            },
+
+            testTwo(message) {
+                this.message = message;
+            }
         },
 
         computed: {
