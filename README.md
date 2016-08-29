@@ -14,7 +14,7 @@ Vue 2.0 project boilerplate.
 * Laravel Elixir
 
 ## Setup
-* Clone the git repo `git clone https://github.com/cklmerver/vue-stack-2.0`
+* Clone the git repo `git clone https://github.com/cklmercer/vue-stack-2.0`
 * Change into the directory `cd vue-stack-2.0`
 * Open `./public/index.html` with your browser.
 
