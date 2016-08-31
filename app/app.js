@@ -1,4 +1,5 @@
-import { Vue, App, router, store } from './boot/core';
+import { Vue, router, store } from './boot/core'
+import App from './components/app.vue'
 
 new Vue({
     router,

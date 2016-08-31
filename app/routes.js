@@ -4,4 +4,4 @@ export default [
         name: 'test',
         component: require('./components/test.vue')
     }
-];
+]

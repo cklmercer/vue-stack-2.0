@@ -20,7 +20,7 @@
             },
 
             testTwo(message) {
-                this.message = message;
+                this.message = message
             }
         },
 
@@ -31,7 +31,7 @@
              * @return {String}
              */
             routeClass() {
-                return this.$route.path.split('/').filter(part => Boolean(part)).join('-');
+                return this.$route.path.split('/').filter(part => Boolean(part)).join('-')
             }
         },
 

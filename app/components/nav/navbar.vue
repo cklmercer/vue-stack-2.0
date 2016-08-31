@@ -29,26 +29,8 @@
                     </li>
                     <li>
                         <router-link :to="{ name: 'test' }">
-                            Test
+                            Fire  Event
                         </router-link>
-                    </li>
-                    <li class="dropdown">
-                        <a href="#"
-                           class="dropdown-toggle"
-                           data-toggle="dropdown"
-                           role="button"
-                           aria-haspopup="true"
-                           aria-expanded="false">
-                            Account
-                            <span class="caret"></span>
-                        </a>
-                        <ul class="dropdown-menu">
-                            <li><a href="#">Profile</a></li>
-                            <li><a href="#">Messages</a></li>
-                            <li><a href="#">Settings</a></li>
-                            <li role="separator" class="divider"></li>
-                            <li><a href="#">Logout</a></li>
-                        </ul>
                     </li>
                 </ul>
 

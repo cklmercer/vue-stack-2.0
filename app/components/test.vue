@@ -12,11 +12,11 @@
 
         mounted() {
             setTimeout(() => {
-                this.$events.fire('testEvent', 'message received');
+                this.$events.fire('testEvent', 'You just received a message from test.vue')
             }, 1500)
 
             setTimeout(() => {
-                this.$events.fire('testTwo', 'other works');
+                this.$events.fire('testTwo', 'hahah you got another message')
             }, 5000)
         }
     }
