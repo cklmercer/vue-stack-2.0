@@ -1,6 +1,8 @@
 # vue-stack-2.0
 Vue 2.0 project boilerplate.
 
+**Note: For updated boilerplate, check out [vue-mix](https://github.com/cklmercer/vue-mix)**
+
 ## Includes
 * Vue 2.0
 * Vue Router 2.0
