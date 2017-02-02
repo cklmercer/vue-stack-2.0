@@ -16,9 +16,11 @@
     "node-sass": "^3.8.0",
     "sass-loader": "^4.0.0",
     "vue": "^2.0.0-rc",
-    "vue-events": "^2.0.0-beta",
     "vue-resource": "^0.9.3",
     "vue-router": "^2.0.0-rc.4",
     "vue-stash": "^2.0.0-beta"
+  },
+  "dependencies": {
+    "vue-events": "3.0.0"
   }
 }
